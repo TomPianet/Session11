@@ -2,7 +2,7 @@ a = 2
 b= 3
 c= "abc"
 print(a, b, c)
-print(a, b, c, sep=", ")
+print(a, b, c, sep=",")
 a += 2
 a == 5
 print(a)
