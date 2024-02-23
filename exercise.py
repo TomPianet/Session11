@@ -19,3 +19,5 @@ def m6() :
             return number
         # print and error and try again
         print("That number is not a multiple of 6. Retry")
+
+print("A multiple of 6 number is,", m6())
