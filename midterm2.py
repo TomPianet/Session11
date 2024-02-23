@@ -1,4 +1,4 @@
-def words_b(text):
+def words_b(filename):
     """
     find 3 letter words in the file
     :param filename:  name of the file
@@ -8,7 +8,7 @@ def words_b(text):
     return
     punctuation = ",!?.\n"
 
-    with open(text, "r") as file:
+    with open(filename, "r") as file:
         # go over the line by file
         for line in file:
             #replace each punctuation mark with nothing
